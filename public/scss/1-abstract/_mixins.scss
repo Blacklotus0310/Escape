@@ -1,0 +1,59 @@
+
+/*Font*/
+@mixin Font($fontSize, $color, $fontFamily: null, $fontWeight: null) {
+    font-size: $fontSize;
+    color: $color;
+    font-family: $fontFamily;
+    font-weight: $fontWeight;
+}
+
+/*Flex toolkit*/
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-center-column {
+    @include flex-center();
+    flex-direction: column;
+}
+
+/*Box*/
+@mixin box($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+/*Link mixin*/
+@mixin link-common-style {
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*After && Before*/
+@mixin clearfix {
+    &::after{
+        content: "";
+        display: table;
+        clear: both;
+        position: absolute;
+        color: transparent;
+    }
+}
+/*Input*/
+@mixin w-input {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    color: $dark-color;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}

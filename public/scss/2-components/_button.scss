@@ -1,0 +1,34 @@
+.btn {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #3898ec;
+    color: $white-color;
+    line-height: inherit;
+    text-decoration: none;
+    font-family: Oxygen, sans-serif;
+    cursor: pointer;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.category-tag {
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    display: inline-block;
+    background-color: #5cc489;
+    margin-top: 6px;
+    margin-right: 6px;
+    padding: 6px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    @include Font(1rem, $white-color, Oxygen sans-serif, 400);
+    line-height: 1rem;
+    text-transform: uppercase;
+}
