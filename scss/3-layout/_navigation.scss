@@ -1,0 +1,40 @@
+/*Navbar menu*/
+.navbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 17px 0;
+    z-index: 10;
+    background-color: transparent;
+    &__menu{
+        position: relative;
+        float: right;
+    }
+    &__menu-link{
+        display: inline-block;
+        padding: 10px 20px;
+        opacity: .7;
+        @include link-common-style;
+        color: $heading-color;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+    
+}
+/*Logo*/
+.logo{
+    &--long-text{
+        margin-top: 7px;
+        color: $heading-color;
+        font-size: 2.6rem;
+        line-height: 2.6rem;
+        }
+}
+.nav-brand{
+    position: relative;
+    float: left;
+    text-decoration: none;
+    color: $dark-color;
+}
+

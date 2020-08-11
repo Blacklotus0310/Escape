@@ -1,0 +1,46 @@
+*{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    line-height: 2rem;
+    min-height: 100%;
+}
+body {
+    font-size: 1.4rem;
+    font-family: 'Lora', serif;
+    line-height: 2rem;
+    color: #333;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+h2 {
+    display: inline-block;
+    margin-bottom: 6px;
+    padding-right: 20px;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: left;
+    font-weight: bold;
+    color: $black-color;
+}
+a {
+    cursor: pointer;
+}
+
+

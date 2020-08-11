@@ -1,0 +1,44 @@
+.btn {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #3898ec;
+    color: $white-color;
+    line-height: inherit;
+    text-decoration: none;
+    font-family: Oxygen, sans-serif;
+    cursor: pointer;
+    border: 0;
+}
+.w-btn{
+        background-color: #f17228;
+        padding: 12px 31px;
+        border-radius: 3px;
+        font-weight: 300;
+        transition: background-color 200ms ease, color 200ms ease;
+}
+.w-btn:hover{
+    background-color: #dd783f;
+    color: #fff;
+}
+.category-tag {
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    display: inline-block;
+    background-color: #5cc489;
+    margin-top: 6px;
+    margin-right: 6px;
+    padding: 6px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    @include Font(1rem, $white-color, Oxygen sans-serif, 400);
+    line-height: 1rem;
+    text-transform: uppercase;
+}
+img{
+    display: block;
+    width: 100%;
+}
